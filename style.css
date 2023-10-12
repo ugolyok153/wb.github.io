@@ -4,7 +4,7 @@ html
 }
 h2
 {
-    color:rgb(173, 127, 150);
+    color:rgb(66, 115, 206);
 }
 body
 {
@@ -13,7 +13,7 @@ body
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    background-color: rgb(97, 76, 173);
+    background-color: rgb(121, 163, 218);
 }
 header
 {
@@ -22,7 +22,7 @@ header
 main
 {
     padding: 0px 5px;
-    background-color: rgb(114, 66, 92);
+    background-color: rgb(138, 180, 214);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ button
 }
 button:hover
 {
-    background-color: rgb(87, 161, 118);
+    background-color: rgb(115, 203, 206);
     border: 2px solid rgb(99, 154, 190);
 }
 .wrapper

@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Задание 1</title>
     <script>
-        alert("head");
-        console.log("head");
-        document.write("head");
+        function setColor()
+        {
+            document.body.style.backgroundColor="red";
+        }
+        //alert("head");
+        //console.log("head");
+       // document.write("head");
     </script>
 </head>
 <body>
@@ -18,6 +22,9 @@
         document.write("head");
     </script>
     <header>
+        <button onclick="setColor()">
+            Красный
+        </button>
         <div class="wrapper">
             <h2 id = "title_h2">
                 Web-tehnology
@@ -110,10 +117,10 @@
             </div>
         </footer>
         <script>
-            alert("head");
-            console.log("head");
-            document.write("head");
-            document.getElementById("title_h2").innerText = "Привет!"
+            //alert("head");
+            //console.log("head");
+            //document.write("head");
+            //document.getElementById("title_h2").innerText = "Привет!"
         </script>
 </body>
 </html>
